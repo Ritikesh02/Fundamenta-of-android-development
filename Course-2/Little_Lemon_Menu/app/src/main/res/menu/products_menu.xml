@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/sorting">
+        <item
+            android:id="@+id/sort_a_z"
+            android:title="sort_a_z" />
+        <item
+            android:id="@+id/sort_price_asc"
+            android:title="sort_price_ascending" />
+        <item
+            android:id="@+id/sort_price_desc"
+            android:title="sort_price_descending" />
+    </group>
+
+    <group android:id="@+id/filter">
+        <item
+            android:id="@+id/filter_all"
+            android:title="filter_all" />
+        <item
+            android:id="@+id/filter_drinks"
+            android:title="filter_drinks" />
+        <item
+            android:id="@+id/filter_food"
+            android:title="/filter_food" />
+        <item
+            android:id="@+id/filter_dessert"
+            android:title="filter_dessert" />
+    </group>
+</menu>
